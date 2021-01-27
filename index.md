@@ -1,37 +1,43 @@
-## Welcome to GitHub Pages
+<!-- 
+    Name:
+    Date:
+    Course:
+    Instructor:
+    Assignment: Basic Site for CIS 155
+    Notes:
 
-You can use the [editor on GitHub](https://github.com/jkokol/Olympic_College_James_Kokol_CIS_155_Winter_2021/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jkokol/Olympic_College_James_Kokol_CIS_155_Winter_2021/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+-->
+<!DOCTYPE html>
+<html>
+<body>
+<h1>CIS 155 Project</h1>
+<p>
+    <ul>
+    <li><a href="Version 1.html">V1 Project</a></li>
+    <li><a href="">V2 Project</a></li>
+    <li><a href="">V3 Project</a></li>    
+    <li><a href="">V4 Project</a></li>
+    </ul>
+</p>
+<p>
+    <!-- Version objectives are those HTML/CSS Module Level Objectives that are required for each version demonstrating your understanding and progress within the class. For example, see M02: Project V1 - Basic HTML and CSS for your V1 Submission -->
+    <h3>V1 Module Level Objectives</h3>
+    <ul>
+        <!-- For example, by adding the list item below, you are committing to having it in your assignment and you have placed the M1L06 next to the element in your code so I can easily find it. You will need to do this for all consequent module level objectives. -->
+        <li><b>M1LO6</b> Demonstrate the use of basic HTML tags to create a simple Web page (HTML, this item should be specified once, describing how the file it is in meets this outcome)</li>
+    </ul>
+    <h3>V2 Module Level Objectives</h3>
+    <ul>
+        <li></li>
+    </ul>
+    <h3>V3 Module Level Objectives</h3>
+    <ul>
+        <li></li>
+    </ul>
+    <h3>V4 Module Level Objectives</h3>
+    <ul>
+        <li></li>
+    </ul>
+</p>
+</body>
+</html>
