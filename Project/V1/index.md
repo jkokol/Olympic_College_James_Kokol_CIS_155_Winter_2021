@@ -1,68 +1,45 @@
+<!-- 
+    Name:
+    Date:
+    Course:
+    Instructor:
+    Assignment: Basic Site for CIS 155
+    Notes:
+
+-->
+<!DOCTYPE html>
 <html>
-  <!--M1LO6 Demonstrate the use of basic HTML tags to create a simple Web page:
-      This is demonstrated throughout the page, as it is a functional HTML page -->
-  <meta charset="UTF-8">
-  <meta name="author" content="James Kokol">
-  <meta name="description" content="History of MTG meta decks over time">
-  <meta name="keywords" content="Magic the Gathering, MTG, Card Games, meta deck, standard, modern, history">
-  <head>
-    <title>Magic the Gathering: An Ever-Changing Meta</title>
-    <!--M1LO8 Demonstrate the use of external style sheets (HTML, note the external style sheet must exist and contain CSS)
-    Style sheet exists, and is called in this file-->
-    <link rel="stylesheet" href="styles.css">
-  </head>
-   <body>
-     <h1>Magic the Gathering: An Ever-Changing Meta</h1>
-<h1></h1>
-     <img src="https://external-preview.redd.it/7qsgZ8Y-qlIAcZlfK0oTDxjTPOgCb2Qwk_n8boDUrRA.png?auto=webp&s=d6399ba442f5ef62f13a857cff3832e9a41e487a"/>
-     <p>
-       Magic the Gathering is a card game developed by Wizards of the Coast in 1993. Since its inception, the game has become one of the most popular card games of all time. As such, the best stratagies, or meta, of the game has changed significatnly over time. Join me, as I take you through the best decks that Magic has ever had.
-    </p>
-    <h2>Table of Contents </h2>
+<body>
+<h1>CIS 155 Project</h1>
+<p>
     <ul>
-      <!-- M1LO12 Create navigation using unordered lists (HTML)
-            Used to navigate between various metas over time, in the individual sections-->
-      <!--M1LO13 Demonstrate using 3 types of hyperlinks: site navigation, targeted location using ids, and external
-             Ids are used to navigate to the various sections --> 
-      <a href="#SM"> Standard Meta</a>
-      <a href="#MM"> Modern Meta</a>
+<<<<<<< HEAD:Project/index.html
+<<<<<<< HEAD
+    <li><a href="Version 1.html">V1 Project</a></li>
+    <li><a href="">V2 Project</a></li>
+    <li><a href="">V3 Project</a></li>    
+    <li><a href="">V4 Project</a></li>
     </ul>
-<h3 id="SM">Standard Metas</h3>
-<!-- M1LO9 Demonstrate the use of inline images (HTML)
-      Used to show the various meta staples, and intigrated in various sections-->
-     <img src="https://media.magic.wizards.com/images/hero/MX2thumb_td20141124.jpg"/>
-     <nav>
-       <!-- M1LO7 Demonstrate the use of ordered lists (HTML)
-            Ordered Lists are used to organize the various decks into a basic list form-->
-       <ol>
-        <!-- M1LO13 Demonstrate using 3 types of hyperlinks: site navigation, targeted location using ids, and external
-            Site Navigation is used to go to each article-->
-        <li><a href="#">Temur Midrange</a></li>
-        <li><a href="#">Necropotence</a></li>
-        <li><a href="#">Academy</a></li>
-       </ol>
-     </nav>
-<h3 id="MM">Modern Metas</h3>
-    <img src="https://cdn.inprnt.com/thumbs/9f/76/9f768e355f9a90b57dcb492f30845836.jpg?response-cache-control=max-age=2628000"/>
-    <nav>
-      <ol>
-        <li><a href="#">Birthing Pod</a></li>
-        <li><a href="#">Eggs</a></li>
-        <li><a href="#">Krark-Clan Ironworks OTK</a></li>
-      </ol>
-    </nav>
-    <footer>
-      <p>
-        <li>Contact Info</li>
-        <li><a href="about.html">About Me</a></li>        
-        <li>Name: James Kokol</li>
-        <li>Phone: 123-456-7890</li>
-        <li>Email: shockforgame@gmail.com</li>
-        <!-- M1LO13 Demonstrate using 3 types of hyperlinks: site navigation, targeted location using ids, and external
-            External Link to a Deck Reference-->
-        <li>Deck References: <a href="http://www.mtgtop8.com"></li>
-      </p>
-    </footer>
-    </div>
-  </body>
+</p>
+<p>
+    <!-- Version objectives are those HTML/CSS Module Level Objectives that are required for each version demonstrating your understanding and progress within the class. For example, see M02: Project V1 - Basic HTML and CSS for your V1 Submission -->
+    <h3>V1 Module Level Objectives</h3>
+    <ul>
+        <!-- For example, by adding the list item below, you are committing to having it in your assignment and you have placed the M1L06 next to the element in your code so I can easily find it. You will need to do this for all consequent module level objectives. -->
+        <li><b>M1LO6</b> Demonstrate the use of basic HTML tags to create a simple Web page (HTML, this item should be specified once, describing how the file it is in meets this outcome)</li>
+    </ul>
+    <h3>V2 Module Level Objectives</h3>
+    <ul>
+        <li></li>
+    </ul>
+    <h3>V3 Module Level Objectives</h3>
+    <ul>
+        <li></li>
+    </ul>
+    <h3>V4 Module Level Objectives</h3>
+    <ul>
+        <li></li>
+    </ul>
+</p>
+</body>
 </html>
