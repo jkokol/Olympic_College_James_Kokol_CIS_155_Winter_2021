@@ -15,8 +15,8 @@
     <ul>
 <<<<<<< HEAD:Project/index.html
 <<<<<<< HEAD
-    <li><a href="Version 1.html">V1 Project</a></li>
-    <li><a href="index.html">V2 Project</a></li>
+    <li><a href="V1/Version 1.html">V1 Project</a></li>
+    <li><a href="V2/index.html">V2 Project</a></li>
     <li><a href="">V3 Project</a></li>    
     <li><a href="">V4 Project</a></li>
     </ul>
