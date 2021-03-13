@@ -1,0 +1,69 @@
+<html>
+  <!--M1LO6 Demonstrate the use of basic HTML tags to create a simple Web page:
+      This is demonstrated throughout the page, as it is a functional HTML page -->
+  <meta charset="UTF-8">
+  <meta name="author" content="James Kokol">
+  <meta name="description" content="History of MTG meta decks over time">
+  <meta name="keywords" content="Magic the Gathering, MTG, Card Games, meta deck, standard, modern, history">
+  <head>
+    <title>Magic the Gathering: An Ever-Changing Meta</title>
+    <!--M1LO8 Demonstrate the use of external style sheets (HTML, note the external style sheet must exist and contain CSS)
+    Style sheet exists, and is called in this file-->
+    <h1>Magic the Gathering: An Ever-Changing Meta</h1>
+    <link rel="stylesheet" href="styles.css">
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <div class="dropdown">
+        <button class="dropbtn">Formats
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="Standard.html">Standard</a>
+          <a href="#">Modern</a>
+          <a href="#">Vintage</a>
+        </div>
+      </div>
+    </div>
+  </head>
+   <body>
+ <figure>
+   <!--M4LO1 Demonstrate the use of figure boxes (HTML)-->
+   <!-- M4LO7 Demonstrate the use of image maps, including determining x and y values (HTML)-->
+   <img src="black lotus.png" alt="black lotus" style="width:50%;height:50%;" usemap="#supersecret" width = "500" height= "500">
+   <map name="supersecret"><area shape="rect" coords = "0,0,500,500" alt = "Lotus Secret" href = "secret.html"></map>
+   <figcaption>Black Lotus, the strongest card in Magic the Gathering</figcaption>
+ </figure>    
+<h2>What is Magic the Gathering?</h2>
+<p>
+  Magic the Gathering is a card game developed by Wizards of the Coast in 1993. Since its inception, the game has become one of the most popular card games of all time. As such, the best stratagies, or meta, of the game has changed significatnly over time. Many players from all walks of life, from the average collector, to the world champions, use these stratagies in order to seek victory. However, some may forget about the metas of the past. That is where this page comes in.
+</p>
+
+<h2>What is this webpage about?</h2>
+<p>
+  This website sees to find all forms of Magic decks from many metas, and explain what made them so successful, how the game as a whole reacted to that deck, and if it is possible to play the deck today. Addtionally, This page will act as a history lession throughout magic's unique history. Join me, as we look through the powerful decks from accross the Magic landscape.
+</p>   
+<h2>Navigation</h2> 
+<p>At the top, you'll see a navigation bar. Under formats, you'll see listings for the various types of Magic formats, and the meta decks within.</p>
+     
+    </ul>
+    <p id=one>Subscribe to recieve updates, and know when your favorite deck is being talked about</p>
+    <form action="" method="get" class="form-example">
+      <div class="form-example">
+        <label for="name">Enter your name: </label>
+        <input type="text" name="name" id="name" required>
+      </div>
+      <div class="form-example">
+        <label for="email">Enter your email: </label>
+        <input type="email" name="email" id="email" required>
+      </div>
+      <div class="form-example">
+        <input type="submit" value="Subscribe!">
+      </div>
+    </form>
+    
+      </p>
+    </footer>
+    </div>
+  </body>
+</html>

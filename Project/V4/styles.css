@@ -83,19 +83,16 @@ body {
   background-color: #333;
   font-family: Arial;
   position: inherit;
-  
   /*  Demonstrate fixed, static, or inherited positioning (CSS, note explicit use of one of the three in your CSS and what the impact is on the HTML)
      Inherit is used essentially as insurance, to make sure the navbar stays in its spot no matter what*/
 }
 .navbar a {
-  transition: color .5s ease;
   float: left;
   font-size: 16px;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  
 }
 /*M5LO4 Use CSS for pull-down menus (or collapsible/expandable areas) (CSS, note where the menu is on your site and how it behaves)
  Dropdown Menu is used on this site to easily navigate to the various Formats on the website*/
@@ -109,7 +106,6 @@ body {
 
 
 .dropdown .dropbtn {
-  transition: color .5s ease; 
   font-size: 16px;
   outline: none;
   border:none;
@@ -121,9 +117,7 @@ body {
 
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-
-  color:red;
-
+  background-color: red;
 }
 
 
