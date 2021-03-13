@@ -87,6 +87,9 @@ body {
      Inherit is used essentially as insurance, to make sure the navbar stays in its spot no matter what*/
 }
 .navbar a {
+  /*M8LO10 Demonstrate a CSS animation or transition (CSS, identify which is being done and its impact on the rendered HTML; note it has to include a time aspect, not be immediate)*/
+  /* Used to make the buttons on the navbar feel smoother to mouse over*/
+  transition: color .5s ease; 
   float: left;
   font-size: 16px;
   color: white;
@@ -106,6 +109,7 @@ body {
 
 
 .dropdown .dropbtn {
+  transition: color .5s ease; 
   font-size: 16px;
   outline: none;
   border:none;
@@ -117,7 +121,7 @@ body {
 
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  color: red;
 }
 
 
